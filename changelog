@@ -1,0 +1,5 @@
+0.1.5: Update for 0.15.10.
+0.1.4: It seems factorio does a garbage collection almost every tick, so stop using a weak cache for the tables.
+0.1.3: Forgot to wipe the table cache after creating a blueprint.
+0.1.2: Store the tile settings per player.
+0.1.1: Initial release

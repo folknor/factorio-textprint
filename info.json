@@ -1,0 +1,12 @@
+{
+	"name": "folk-textprint",
+	"version": "0.2.0",
+	"title": "Auto-Blueprintify Text",
+	"description": "Creates tile blueprints from your text input that are easily visible on the map. A floor printer, if you will.",
+	"author": "folk",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=45554",
+	"factorio_version": "0.15",
+	"license": "CC-BY-NC 4.0",
+	"dependencies": ["? textplates"]
+}
