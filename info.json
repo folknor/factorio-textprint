@@ -1,6 +1,6 @@
 {
 	"name": "folk-textprint",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"title": "Auto-Blueprintify Text",
 	"description": "Creates tile blueprints from your text input that are easily visible on the map. A floor printer, if you will.",
 	"author": "folk",
