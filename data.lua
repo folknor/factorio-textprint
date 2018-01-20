@@ -6,6 +6,7 @@ _G.data:extend({
 		type = "recipe",
 		name = "blueprintify",
 		icon = "__folk-textprint__/tt.png",
+		icon_size = 32,
 		enabled = false,
 		energy_required = 300,
 		ingredients = {

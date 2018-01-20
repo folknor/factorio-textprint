@@ -195,7 +195,7 @@ do
 			frame.one.add({
 				type = "textfield",
 				name = "blueprintify_text",
-				style = "textfield_style"
+				style = "textfield"
 			})
 		end
 		if not frame.one.blueprintify_doit then
@@ -243,8 +243,8 @@ do
 			})
 		end
 
-		frame.one.style.resize_to_row_height = true
-		frame.two.style.resize_to_row_height = true
+		--frame.one.style.resize_to_row_height = true
+		--frame.two.style.resize_to_row_height = true
 
 		frame.style.visible = false
 	end
@@ -259,6 +259,11 @@ do
 					initGui(player)
 				end
 			end
+		end
+	end)
+	script.on_configuration_changed(function()
+		for _, p in pairs(game.players) do
+			if p.valid then initGui(p) end
 		end
 	end)
 end
